@@ -2,6 +2,6 @@ streamlit
 langchain
 faiss-cpu
 sentence-transformers
-ctransformers
+ollama
 pypdf
 python-dotenv
