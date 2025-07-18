@@ -40,7 +40,7 @@ This is a lightweight and efficient **PDF-based Question Answering** system buil
 ├── store_index.py         # (Optional) Script to build FAISS index ahead of time
 ├── requirements.txt       # Python dependencies
 ├── data/                  # Place your PDF files here
-├── Model/                 # Optional: place GGML/GGUF model files here if not using Ollama
+├── Model/                 # Place the model
 ├── src/
 │   ├── helper.py          # PDF loading, text splitting, and embeddings
 │   └── prompt.py          # Custom prompt template
