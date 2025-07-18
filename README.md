@@ -6,12 +6,12 @@ This is a simple chatbot application that allows users to ask questions based on
 
 ## ✅ Features
 
-- Upload and process PDFs
-- Chunk documents and embed them using `sentence-transformers` (`all-MiniLM-L6-v2`)
-- Semantic similarity search with FAISS
-- Local inference using LLaMA 2 
-- Simple Streamlit web interface for querying
-- Shows answer *and* source document snippets
+- 📄 Upload and process PDF documents  
+- 🧩 Chunk documents and embed them using `sentence-transformers` (`all-MiniLM-L6-v2`)  
+- 🔍 Semantic similarity search using FAISS  
+- 🤖 Local inference with LLaMA 2 via [Ollama](https://ollama.com/)  
+- 💬 Streamlit UI for querying and displaying answers  
+- 📚 Displays relevant context used to generate the answer  
 
 ---
 
@@ -20,10 +20,10 @@ This is a simple chatbot application that allows users to ask questions based on
 ```text
 .
 ├── app.py                 # Streamlit app (loads index, answers questions)
-├── store_index.py         # Build and save FAISS index from PDFs
+├── store_index.py         # (Optional) Script to manually build FAISS index
 ├── requirements.txt       # Python dependencies
 ├── Data/                  # Place your PDF files here
 ├── Model/                 # Place LLaMA model .bin file here
 └── src/
-    ├── helper.py          # PDF loading, splitting, embeddings
+    ├── helper.py          # PDF loading, chunking, embeddings
     └── prompt.py          # Prompt template
