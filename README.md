@@ -15,12 +15,12 @@ This is a simple chatbot application that allows users to ask questions based on
 ---
 
 ## 📁 Project Structure
-├── app.py # Main Streamlit app
-├── store_index.py # Preprocess and build FAISS index
-├── requirements.txt # Python dependencies
-├── Data/ # Place your PDFs here
-├── Model/ # Place your LLaMA model file here
-└── src/
-├── helper.py # PDF loading, splitting, embeddings
-└── prompt.py # Prompt template
+─ app.py # Main Streamlit app
+─ store_index.py # Preprocess and build FAISS index
+─ requirements.txt # Python dependencies
+─ Data/ # Place your PDFs here
+─ Model/ # Place your LLaMA model file here
+─ src/
+  ─ helper.py # PDF loading, splitting, embeddings
+  ─ prompt.py # Prompt template
 
