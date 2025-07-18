@@ -9,7 +9,7 @@ This is a simple chatbot application that allows users to ask questions based on
 - Upload and process PDFs
 - Chunk documents and embed them using `sentence-transformers` (`all-MiniLM-L6-v2`)
 - Semantic similarity search with FAISS
-- Local inference using LLaMA 2 (via `CTransformers`)
+- Local inference using LLaMA 2 
 - Simple Streamlit web interface for querying
 - Shows answer *and* source document snippets
 
